@@ -1,4 +1,5 @@
 /* Home Page CSS */
+
 html {
 	text-decoration: none;
 	background-color: antiquewhite;
@@ -16,7 +17,7 @@ html {
 
 /* Page title and nav links */
 .navbar {
-	background-color: rgb(116, 41, 56);
+	background-color: #aac;
 	font-family: "calibri";
 	padding: 10px;
 }
