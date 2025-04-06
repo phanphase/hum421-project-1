@@ -10,18 +10,37 @@ html {
 
 .content {
 	background-color: #afccd8;
-	padding-left: 10px;
-	padding-left: 10px;
-}
 
+	margin: 30px;
+	margin-top: 80px;
+
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+
+	border-width: 1px;
+	border-color: #002225;
+	border-style: ridge;
+
+	border-radius: 10px;
+}
+.header {
+	text-align: center;
+}
 /* Page title and nav links */
 nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+
 	background-color: #232323;
+	box-shadow: 0px 0px 10px black;
+	width: 80%;
+	opacity: 0.8;
+	border-bottom-right-radius: 10px;
 	font-family: "calibri";
-	padding: 10px;
 }
 
-/* allows different format for page name and nav links */
 .navdiv {
 	display: flex;
 	align-items: center;
@@ -29,10 +48,15 @@ nav {
 	width: 100%;
 }
 
+/* page name and logo style */
 .PageName {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	margin-left: 10px;
+	padding-left: 5px;
+	padding-right: 15px;
 }
 
 .PageName img {
@@ -46,11 +70,12 @@ nav {
 	color: white;
 }
 
-/* Target only navbar lists */
+/* links to pages style */
 nav ul {
 	display: flex;
 	align-items: center;
 	list-style: none;
+
 	padding: 0;
 	margin: 0;
 }
@@ -58,10 +83,17 @@ nav ul {
 nav li {
 	display: flex;
 	align-items: center;
-	margin-right: 25px;
+
+	margin-right: 5px;
+	margin-right: 5px;
+
+	padding-left: 5px;
+	padding-right: 15px;
+	border-radius: 5px;
 }
 
 nav li a {
+	text-decoration: none;
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
@@ -72,19 +104,31 @@ nav li img {
 	height: 40px;
 }
 
-nav li p {
-	display: b;
+/* hover styling */
+nav:hover {
+	opacity: 1;
 }
 
+nav li:hover {
+	background-color: #404546;
+}
+
+nav li:hover a {
+	color: #a5e4ff;
+}
+
+/* more legible lists */
 .spacedlist li {
 	margin-bottom: 7px;
 }
 
+/* links and important text */
 .blue {
 	color: rgb(6, 6, 75);
 	font-weight: 750;
 }
 
+/* frog image on template page */
 .frog {
 	width: 150px;
 	height: 150px;
