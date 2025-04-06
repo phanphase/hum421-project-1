@@ -1,8 +1,7 @@
 /* Home Page CSS */
-
 html {
 	text-decoration: none;
-	background-color: antiquewhite;
+	background-color: #c6dde7;
 }
 
 .bold {
@@ -10,14 +9,14 @@ html {
 }
 
 .content {
-	background-color: #faebe6;
+	background-color: #afccd8;
 	padding-left: 10px;
 	padding-left: 10px;
 }
 
 /* Page title and nav links */
-.navbar {
-	background-color: #aac;
+nav {
+	background-color: #232323;
 	font-family: "calibri";
 	padding: 10px;
 }
@@ -48,7 +47,7 @@ html {
 }
 
 /* Target only navbar lists */
-.navbar ul {
+nav ul {
 	display: flex;
 	align-items: center;
 	list-style: none;
@@ -56,24 +55,24 @@ html {
 	margin: 0;
 }
 
-.navbar li {
+nav li {
 	display: flex;
 	align-items: center;
 	margin-right: 25px;
 }
 
-.navbar li a {
+nav li a {
 	color: white;
 	font-size: 18px;
 	font-weight: bold;
 }
 
-.navbar li img {
+nav li img {
 	width: 40px;
 	height: 40px;
 }
 
-.navbar li p {
+nav li p {
 	display: b;
 }
 
